@@ -6,8 +6,7 @@ package SRP.example2.bad;
 public class Animal {
     private String animal;
 
-    // ❌ switch문으로 모든 동물의 울음소리를 처리
-    // 새로운 동물이 추가될 때마다 이 메서드를 수정해야 함
+    // ❌ 새로운 동물이 추가될 때마다 이 메서드를 수정해야 함
     public void cry() {
         switch (animal) {
             case "cat":
@@ -24,7 +23,6 @@ public class Animal {
         }
     }
 
-    // ❌ 단순 getter/setter만으로는 동물의 종류를 제대로 관리하기 어려움
     public String getAnimal() {
         return animal;
     }
