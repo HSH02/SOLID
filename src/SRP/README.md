@@ -99,7 +99,7 @@ public class UserManager {
 }
 ```
 
-example1의 bad code 입니다.
+example1의 나쁜 코드입니다.
 
 현재 여러 책임을 가지고 있으므로 변경의 이유가 3가지가 됩니다.
 * 사용자 데이터 관리의 수정이 필요할 때 변경해야 한다.
@@ -191,7 +191,7 @@ public class Animal {
     }
 }
 ```
-example2의 bad code 입니다.
+example2의 나쁜 코드입니다.
 
 동물이 새로 추가될때마다 로직에 코드를 추가해야 하며 Animal 클래스가 종류 및 울음소리 출력 관리르 맡고 있습니다.
 

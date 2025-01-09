@@ -1,6 +1,5 @@
 package OCP.example2.bad;
 
-// ❌ SRP 위반: 동물의 타입과 소리를 한 클래스에서 모두 처리
 public class Animal {
     private String type;
 

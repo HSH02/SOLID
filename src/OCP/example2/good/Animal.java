@@ -1,11 +1,11 @@
 package OCP.example2.good;
 
+// ✅ OCP 준수: 새로운 동물 추가 시 기존 코드를 수정할 필요 없음
 public interface Animal {
     void makeSound();  // 동물의 소리를 내는 기능
     String getType();  // 동물의 종류를 반환하는 기능
 }
 
-// ✅ OCP 준수: 새로운 동물 추가 시 기존 코드를 수정할 필요 없음
 class Dog implements Animal {
     @Override
     public void makeSound() {
