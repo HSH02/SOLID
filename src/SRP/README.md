@@ -122,13 +122,13 @@ public class EmailService {
 ```
 
 ```java
-package SRP.example1.good.service;
+package SRP.example1.good.validator;
 
-// 이메일 전송
-public class EmailService {
+// 데이터 검증
+public class EmailValidator {
 
-    public void sendWelcomeEmail(String email) {
-        System.out.println("환영 이메일 전송: " + email);
+    public boolean isValidEmail(String email) {
+        return email.contains("@") && email.contains(".");
     }
 
 }
