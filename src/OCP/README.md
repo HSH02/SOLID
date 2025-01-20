@@ -15,7 +15,6 @@
 ```java
 package OCP.example1.bad;
 
-// ❌ SRP 위반: 부모 클래스가 도형의 타입을 문자열로 관리
 class Shape {
     String type;
 }
