@@ -5,13 +5,13 @@ public class LegoBuilder {
     public void build(String blockType) {
         // 새로운 블록 종류가 추가되면 이 메서드를 수정해야 함
         switch (blockType) {
-            case "red":
+            case "Red":
                 System.out.println("🔴 빨강 블록을 추가합니다.");
                 break;
-            case "blue":
+            case "Blue":
                 System.out.println("🔵 파랑 블록을 추가합니다.");
                 break;
-            case "yellow":
+            case "Yellow":
                 System.out.println("🟡 노랑 블록을 추가합니다.");
                 break;
             default:
